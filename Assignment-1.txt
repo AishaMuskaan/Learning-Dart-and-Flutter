@@ -1,0 +1,44 @@
+void main() {
+  //Marks of each subject:
+  var subject1 = 89;
+  var subject2 = 75;
+  var subject3 = 56;
+  var subject4 = 78;
+  var subject5 = 69;
+  var totalmarks =500;
+ // Total of obtained marks in all subjects:
+  var obtained = subject1 + subject2 + subject3 + subject4 + subject5;
+  print(
+  "Total Marks Obtained:${obtained}");
+  //Total percentage:
+  var percentage = (obtained / totalmarks) * 100; 
+  print(
+  "Percentage:${percentage}%");
+
+  if(percentage >= 80)
+  {
+    print("A+ grade");
+  }
+  else if(percentage >= 70)
+  {
+    print("A grade");
+  }
+  else if(percentage >= 60)
+  {
+    print("B grade");
+  }
+  else if(percentage >= 50)
+  {
+    print("C grade");
+  }
+  else if(percentage >= 40)
+  {
+    print("D grade");
+  }
+  else
+  {
+    print("Fail");
+  }
+}
+ 
+          ******************************************************
