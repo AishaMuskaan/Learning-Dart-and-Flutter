@@ -91,3 +91,13 @@ void main() {
  }
 
               **********************************************************************
+void main(){
+// QUESTION #03:-
+   var cost = 600; //Cost of one movie ticket
+   print("cost of one ticket:${cost}");
+   var ticketquantity = 5;
+   var totalcost = cost * ticketquantity; //Cost of 5 tickets
+   print("cost of 5 tickets:${totalcost}");
+}
+
+              **********************************************************************
