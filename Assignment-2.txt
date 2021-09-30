@@ -72,3 +72,22 @@ void main() {
  }
 
               *****************************************************************
+
+void main() {
+// QUESTION #02:-
+   var a = 2;
+   var b = 1;
+   var result = --a - --b + ++b + b--;
+   print(result);
+// Output at each stage:
+//  var c = --a; //This is pre decreament of "a" and its value is "2" but after pre decrement its value becomess "1"
+//  var d = --a - --b; //In "a" after pre decreament a value  is "1" and in "b" there is pre decreament and after
+//  value of b is "0" then value of overall expression becomes "1"
+//  var e = --a - --b + ++b; //Now value of "--a" is 1, "--b" is 0 and there is pre increament in "b" so the value of
+//  "b" is increased by 1 then value of overall expression becomes "2"
+//  var f = --a - --b + ++b + b--; //Value of "--a" is 1, value of "--b" is 0, value of "++b" is 1
+//   and after post decreament value of "b--" is 1
+//  --a - --b + ++b + b-- = 1-0+1+1 =3
+ }
+
+              **********************************************************************
