@@ -1,0 +1,74 @@
+void main() {
+// QUESTION #01:-
+// The following are the various types of operators in Dart:
+// 1)Arithmetic Operators
+// 2)Equality and Relational Operators
+// 3)Logical Operators
+   
+   var numb1 = 3;
+   var numb2 = 2;
+// (1)Arithmetic Operators:
+// Add(+):
+   var a = numb1 + numb2;
+   print(a);
+// Subtract(-):
+   var b = numb1 - numb2;
+  print(b);
+// Multiply(*):
+   var c = numb1 * numb2;
+   print(c);
+// Divide(/):
+   var d = numb1 / numb2;
+   print(d);
+// Divide, returning an integer result(~/):
+   var e = numb1 ~/ numb2;
+   print(e);
+// Modulo(%):
+   var f = numb1 % numb2;
+   print(f);
+// Increment(++):
+   var g = numb1++;
+   print(g);
+   var x = numb1++;
+   print(x);
+// Decrement(--):
+   var h = numb1--;
+   print(h);
+   var y = numb1--;
+   print(y);
+  
+  
+   
+// (2)Equality and Relational Operators:
+// Greater than(>):
+   var i = numb1 > numb2;
+   print(i);
+// Less than(<):
+   var j = numb1 < numb2;
+   print(j);
+// Greater than or equal to(>=):
+   var k = numb1 >= numb2;
+   print(k);
+// Lesser than or equal to(<=):
+   var l = numb1 <= numb2;
+   print(l);
+// Equality(==):
+   var m = numb1 == numb2;
+   print(m);
+// Not Equal(!=):
+   var n = numb1!= numb2;
+   print(n);
+   
+// (3)Logical Operators:
+// AND(&&):
+   var o = (numb1>5)&&(numb2<6);
+   print(o);
+// OR(||):
+   var p = (numb1>5)||(numb2<6);
+   print(p);
+// NOT(!):
+   var q = !((numb1>5)||(numb2<6));
+   print(q);
+ }
+
+              *****************************************************************
