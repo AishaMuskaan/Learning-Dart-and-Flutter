@@ -225,3 +225,24 @@ void main() {
 }
 
               **********************************************************************
+
+void main() {
+// QUESTION #12:-
+   var CustomerName = "Ayesha";
+  print(CustomerName);
+   var CurrentMonth = "Septomber";
+  print(CurrentMonth);
+   var Numbersofunits = 800.5855; 
+   var Chargesperunit = 20.5678;
+   var NetAmountPayable =  Numbersofunits * Chargesperunit;
+   print(NetAmountPayable);
+   NetAmountPayable=double.parse((NetAmountPayable).toStringAsFixed(2));
+   print(NetAmountPayable);
+   var LatePaymentSurcharge = 1000;
+   var GrossAmountPayable = NetAmountPayable + LatePaymentSurcharge;
+   print(GrossAmountPayable);
+   GrossAmountPayable=double.parse((GrossAmountPayable).toStringAsFixed(2));
+   print(GrossAmountPayable);
+}
+
+              **********************************************************************
