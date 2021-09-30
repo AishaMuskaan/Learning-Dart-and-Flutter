@@ -164,3 +164,20 @@ void main() {
  }
 
               **********************************************************************
+
+void main() {
+// QUESTION #08:-
+   var correctpassword = "ef75i89";
+   var userpassword = "ef76i89";
+   if(userpassword==""){
+     print("please enter your password");
+   }
+     else if(userpassword==correctpassword){
+       print("correct! the password you entered matches the original password");
+   }
+   else{
+     print("Incorrect password");
+   }
+ }
+
+              **********************************************************************
