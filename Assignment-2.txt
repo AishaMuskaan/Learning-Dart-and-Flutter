@@ -181,3 +181,27 @@ void main() {
  }
 
               **********************************************************************
+
+void main() {
+// QUESTION #09:-
+ var studentnames = ["samra","ayesha","laiba"];
+   var scores  = [350,215,474]; //scores of each student
+   var totalscores =500; //For each student
+//Percentage and scores of Samra:
+   var scoresofsamra = scores[0];
+   print("Scores of Samra:${scoresofsamra}");
+   var percentageofsamra = (scores[0]/totalscores)*100;
+   print("Percentage of Samra:${percentageofsamra}%");
+// Percentage and scores of Ayesha:
+   var scoresofayesha = scores[1];
+   print("Scores of Ayesha:${scoresofayesha}");
+   var percentageofayesha = (scores[1]/totalscores)*100;
+   print("Percentage of Ayesha:${percentageofayesha}%");
+// Percentage and scores of Laiba:
+    var scoresoflaiba = scores[2];
+   print("Scores of Laiba:${scoresoflaiba}");
+   var percentageoflaiba = (scores[2]/totalscores)*100;
+   print("Percentage of Laiba:${percentageoflaiba}%");
+ }
+
+              **********************************************************************
