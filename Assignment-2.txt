@@ -205,3 +205,13 @@ void main() {
  }
 
               **********************************************************************
+
+void main() {
+// QUESTION #10:-
+ // Legal variables:-
+  var num1, var my_age, var ali45, var $, var Name
+// Illegal variables:-
+  var 25ali, var my-age, var my name, var @gmail, var abc&
+}
+
+              **********************************************************************
