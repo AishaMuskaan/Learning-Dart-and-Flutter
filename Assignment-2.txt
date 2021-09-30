@@ -133,3 +133,34 @@ void main() {
  }
 
               **********************************************************************
+
+void main() {
+// QUESTION #06:-
+// The following data types are supported in Dart:
+// 1)Numbers(Int,Double,Num)
+  int marks = 80;
+  double pi = 3.14;
+  num marks = 80; // Both "int" and "double" we can use in "num".
+  num pi =3.14;
+// 2)Strings
+  String msg = "Welcome";
+// 3)Booleans
+// The Boolean type represents the two values:
+// true and false
+// 4)Lists
+  var list1 = [2,4,6,8,10];
+// 5)Maps
+   var data = {'name':'Ahmad','age':'25'}; //{key:value}
+ }
+
+              **********************************************************************
+
+void main() {
+// QUESTION #07:-
+   var numbersoftable7 = [7,14,21,28,35,42,49,56,63,70];
+   var numbers = [1,2,3,4,5,6,7,8,9,10];
+   var tableof7 = Map.fromIterables(numbers,numbersoftable7);
+   print(tableof7);
+ }
+
+              **********************************************************************
