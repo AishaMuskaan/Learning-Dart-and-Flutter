@@ -215,3 +215,13 @@ void main() {
 }
 
               **********************************************************************
+
+void main() {
+  // QUESTION #11:-
+   var  word1 = "Hyderabad"; 
+   print(word1);
+   var result = word1.replaceAll("Hyder","Islam");
+   print(result);
+}
+
+              **********************************************************************
