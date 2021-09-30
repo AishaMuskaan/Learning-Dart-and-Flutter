@@ -246,3 +246,17 @@ void main() {
 }
 
               **********************************************************************
+
+void main() {
+// QUESTION #13:-
+  var currentdate = 13;
+  print("Current date: ${currentdate}");
+  if(currentdate<=15){
+    print("First fifteen days of the month");
+  } else{
+    print("Last days of the month");
+  }
+  
+}
+
+              **********************************************************************
