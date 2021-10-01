@@ -54,3 +54,12 @@ void main(){
 }
 
        *****************************************************************************
+
+void main(){
+// QUESTION # 06:-
+var fruits = ["apple","banana","mango","orange","strawberry"];
+  for(var fruits in fruits ){
+    print(fruits);
+  }
+}
+      ******************************************************************************
