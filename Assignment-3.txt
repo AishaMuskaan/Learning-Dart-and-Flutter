@@ -25,3 +25,22 @@ void main(){
    print(lst);
 }
        *****************************************************************************
+
+void main(){
+// QUESTION # 04:-
+  int numb=23;
+  int factors =0; //Prime numbers are numbers that have only two factors
+  for(int i=1; i<=numb; i++){
+    if(numb%i==0){
+     factors++;
+      
+    }
+  }
+  if(factors == 2){
+    print("$numb is a prime number");
+  } else {
+    print("$numb is not a prime number");
+  }
+}
+  
+       *****************************************************************************
