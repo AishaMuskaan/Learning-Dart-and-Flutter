@@ -74,3 +74,22 @@ void main(){
 }
 
       ******************************************************************************
+
+void main(){
+  //QUESTION # 08:-
+  // Temperature in °C:
+ var t1 = 0;
+  print("Temperature in °C: ${t1}");
+  // Temperature in °F:
+  var result = (t1 * 9/5)+32; 
+  print("$t1°c is ${result}°F");
+  
+  //Temperature in °F:
+  var t2 = 32;
+  print("Temperature in °F: ${t2}");
+  //Temperature in °C:
+  var result2 = (t2 - 32) * 5/9; 
+  print("$t2°F is ${result2}°C");
+}
+
+       *****************************************************************************
