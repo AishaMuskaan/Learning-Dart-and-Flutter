@@ -93,3 +93,48 @@ void main(){
 }
 
        *****************************************************************************
+
+void main(){
+  // QUESTION # 09:-
+var number1 =8;        // First Number
+var number2 =4;        // Second Number
+var operation = "*";   // Operations(+, -, *, /, %)
+  if(operation=="+"){
+    var result=number1 + number2;
+    print(result);
+  }  else if(operation=="-"){
+    var result2 =number1 - number2;
+    print(result2);
+  }  else if(operation=="*"){
+    var result3 =number1 * number2;
+    print(result3);
+  }  else if(operation=="/"){
+    var result4 =number1 / number2;
+    print(result4);
+  }  else if(operation=="%"){
+    var result5 =number1 % number2;
+    print(result5);
+  }  else{
+    print("Error");
+  }
+}
+
+       *****************************************************************************
+
+void main() {
+// QUESTION # 10:-
+var character ="e";  
+  // If character is vowel(a,e,i,o,u) it returns True otherwise
+  // it returns False
+  if(character== "a" ||
+     character== "e" ||
+     character== "i" ||
+     character== "o" ||
+     character== "u" ){
+    print("True");
+  }  else {
+    print("False");
+  }
+}
+
+       *****************************************************************************     
