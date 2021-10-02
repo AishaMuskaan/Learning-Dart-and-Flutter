@@ -1,0 +1,131 @@
+void main() {
+// Question # 02:-
+   table(13);
+}
+
+void table(int num){
+    for(int i=1; i<=10; i++){
+    print("$num x $i = ${num*i}");
+}
+}
+
+         ***************************************************************************
+void main() {
+// Question # 03:-
+   divider(2);
+}
+
+void divider(int num){
+   List lst = [2,4,6,8,9];
+   for(int i=0; i<lst.length; i++){
+    print((lst[i])/num);
+}}
+         ***************************************************************************
+void main() {
+// Question # 04:-
+  var names = ["Aisha","Laiba","Amna","Nimra","Anum"];
+  var marks = [488,375,325,256,145];
+  for(int i=0; i<marks.length; i++){
+     print(names[i]);
+    print(marks[i]);
+     marksheet(((marks[i])*100)/500);
+}
+}
+void marksheet(num per){
+if(per>=80){
+  print("A+ Grde");
+ } else if (per>=70){
+  print("A Grade");
+ } else if (per>=60){
+  print("B Grade");
+ } else if (per>=50){
+  print("C Grade");
+ } else {
+  print("Fail");
+}
+}
+
+         ***************************************************************************
+void main() {
+// Question # 05:-
+ Multiplication numb = Multiplication(numb1:3 , numb2:4);
+  numb.abc();
+}
+
+class Multiplication {
+  int numb1;
+  int numb2;
+  
+  Multiplication({required this.numb1,required this.numb2});
+  
+  void abc(){
+    print(numb1*numb2);
+  }
+}
+         ***************************************************************************
+void main() {
+// Question # 06:-
+My name1 = My(name:"Aisha");
+  name1.myname();
+}
+class My{
+  String name;
+  
+  My({required this.name});
+  
+  void myname(){
+    print("My name is $name.");
+  }
+}
+         ***************************************************************************
+void main() {
+// Question # 07:-
+Information me = Information(name:"Aisha",age:20,education:"Intermediate");
+  me.myinfo();
+}
+class Information {
+  String name;
+  int age;
+  String education;
+  Information({required this.name, required this.age, required this.education});
+  void myinfo(){
+    print("My name is $name.");
+    print("My age is $age.");
+    print("My education is $education.");
+  }
+}
+         ***************************************************************************
+void main() {
+// Question # 08:-
+ Cat cat = Cat();
+  cat.setage(1);
+  cat.setcolor("black");
+  cat.clean();
+  cat.drink();
+  print("My cat is ${cat.getage()} years old and it's colour is ${cat.getcolor()}.");
+}
+class Animal {
+ late String color;
+  void clean(){
+    print("Cats are very clean animals.");
+  }
+  void setcolor(String newcolor){
+    this.color = newcolor;
+}
+  String getcolor(){
+    return color;
+  }
+}
+class Cat extends Animal {
+ late int age;
+  void drink(){
+    print("The cat drinks milk.");
+  }
+  void setage(int newage){
+    this.age=newage;
+  }
+  int getage(){
+    return age;
+  }
+}
+         ***************************************************************************
